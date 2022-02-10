@@ -14,7 +14,8 @@
 	<!-- ProductCode change for new versions and UpgradeCode remains same. -->
 	<?define UpgradeCode = {6C74CF9B-C848-4806-8198-021EB5EAE9A9}?> 
 	
-	<?define BuildVersion = 2.0.2.0?>
+	<?define BuildVersion = 2.0.4.0?>
+	<?define BuildVersion_forUpgradeBlock = 2.0.4?>
 	
 	<Product Id="$(var.ProductCode)" 
 			 Name="!(loc.ProductName_$(var.Platform))" 
@@ -85,12 +86,12 @@
 		but replace one file. If we were doing a major upgrade, we would probably remove 1.0.0 
 		and install 1.1.0 instead).-->
 		
-		<Upgrade Id='{6C74CF9B-C848-4806-8198-021EB5EAE9A9}'>
+		<Upgrade Id='$(var.UpgradeCode)'>
 			<UpgradeVersion OnlyDetect='yes' Property='SELFFOUND'
-				Minimum='2.0.2' IncludeMinimum='yes'
-				Maximum='2.0.2' IncludeMaximum='yes' />
+				Minimum='$(var.BuildVersion_forUpgradeBlock)' IncludeMinimum='yes'
+				Maximum='$(var.BuildVersion_forUpgradeBlock)' IncludeMaximum='yes' />
 			<UpgradeVersion OnlyDetect='yes' Property='NEWERFOUND'
-				Minimum='2.0.2' IncludeMinimum='no' />
+				Minimum='$(var.BuildVersion_forUpgradeBlock)' IncludeMinimum='no' />
 		</Upgrade>
 		
 		
