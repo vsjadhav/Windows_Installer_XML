@@ -1,0 +1,9 @@
+obj\Debug\Product.wixobj
+obj\Debug\ConsoleApp1.Installer.wixproj.BindContentsFileListen-us.txt
+obj\Debug\ConsoleApp1.Installer.wixproj.BindOutputsFileListen-us.txt
+obj\Debug\ConsoleApp1.Installer.wixproj.BindBuiltOutputsFileListen-us.txt
+obj\Debug\Components.wixobj
+obj\Debug\Directories.wixobj
+obj\Debug\StartComponent.wixobj
+C:\Users\vaibhav.jadhav.IMANAGE\source\repos\ConsoleApp1\ConsoleApp1.Installer\bin\Debug\en-us\ConsoleApp-Debug-x64.msi
+C:\Users\vaibhav.jadhav.IMANAGE\source\repos\ConsoleApp1\ConsoleApp1.Installer\bin\Debug\en-us\ConsoleApp-Debug-x64.wixpdb

@@ -1,0 +1,8 @@
+	<?if $(var.Platform)=x64?>
+	<?define ProductCode = {F1C9C720-03F0-47A8-B913-7C5898856CD3}?>
+	<?else?>
+	<?define ProductCode = {3EACF020-3B72-42C5-825B-73E6C2617DC7}?>
+	<?endif?>
+	
+	<!-- ProductCode change for new versions and UpgradeCode remains same. -->
+	<?define UpgradeCode = {6C74CF9B-C848-4806-8198-021EB5EAE9A9}?>  

@@ -1,0 +1,1 @@
+msiexec /i ConsoleApp-Debug-x64.msi REINSTALL=ALL REINSTALLMODE=vomus
