@@ -1,2 +1,0 @@
-C:\Users\vaibhav.jadhav.IMANAGE\source\repos\ConsoleApp1\ConsoleApp1.Installer\bin\Debug\en-us\ConsoleApp-Debug-x64.msi
-C:\Users\vaibhav.jadhav.IMANAGE\source\repos\ConsoleApp1\ConsoleApp1.Installer\bin\Debug\en-us\ConsoleApp-Debug-x64.wixpdb

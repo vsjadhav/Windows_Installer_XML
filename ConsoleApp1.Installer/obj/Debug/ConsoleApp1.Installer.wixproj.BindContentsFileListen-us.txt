@@ -1,2 +1,0 @@
-..\ConsoleApp1\TextFile.txt
-..\ConsoleApp1\bin\Debug\ConsoleApp1.application
